@@ -201,8 +201,8 @@ class _LogInScreenState extends State<LogInScreen> {
                                   emailController.clear();
                                   passwordController.clear();
                                   Navigator.pop(context);
-                                  //  Navigator.pushNamed(
-                                  //     context, adminDashbordScreenRoute);
+                                   Navigator.pushNamed(
+                                      context, adminDashbordScreenRoute);
                                 },
                               ),
                               const SizedBox(
